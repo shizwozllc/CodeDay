@@ -8,6 +8,11 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_sendMessage.gml</script>
+    <script>scripts\scr_getLetter.gml</script>
+    <script>scripts\scr_getNumLetters.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_letter</object>
     <object>objects\obj_test</object>
