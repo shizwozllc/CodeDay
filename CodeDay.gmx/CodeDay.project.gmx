@@ -8,9 +8,17 @@
   <sprites name="sprites">
     <sprite>sprites\spr_letter</sprite>
     <sprite>sprites\spr_button_placeholderXXX</sprite>
+    <sprite>sprites\sprite0</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_sendLetter.gml</script>
+    <script>scripts\scr_getLetter.gml</script>
+    <script>scripts\scr_getNumLetters.gml</script>
+    <script>scripts\scr_startDay.gml</script>
+    <script>scripts\scr_endDay.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_letter</object>
     <object>objects\obj_mainmenu_gameover</object>
@@ -18,6 +26,12 @@
   <rooms name="rooms">
     <room>rooms\rm_gameover</room>
     <room>rooms\rm_testletter</room>
+    <object>objects\obj_test</object>
+    <object>objects\obj_score</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_testRoom</room>
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_main</room>
     <room>rooms\rm_options</room>
     <room>rooms\rm_credits</room>
