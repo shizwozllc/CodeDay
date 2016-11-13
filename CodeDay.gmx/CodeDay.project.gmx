@@ -5,14 +5,18 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sprite0</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_letter</object>
     <object>objects\obj_test</object>
+    <object>objects\obj_score</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_testRoom</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_main</room>
     <room>rooms\rm_options</room>
