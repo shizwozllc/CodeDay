@@ -14,6 +14,8 @@
     <script>scripts\scr_sendLetter.gml</script>
     <script>scripts\scr_getLetter.gml</script>
     <script>scripts\scr_getNumLetters.gml</script>
+    <script>scripts\scr_startDay.gml</script>
+    <script>scripts\scr_endDay.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_letter</object>
