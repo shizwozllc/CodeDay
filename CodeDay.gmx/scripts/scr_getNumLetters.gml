@@ -1,4 +1,8 @@
-var MIN_LETTERS,MAX_LETTERS;
+//Returns the number of letters recieved in a day
+var dayNumber;
 randomize();
 
-return irandom_range(MIN_LETTERS,MAX_LETTERS);
+minLetters = dayNumber * 4;
+maxLetters = dayNumber * 5;
+
+return irandom_range(minLetters,maxLetters);
