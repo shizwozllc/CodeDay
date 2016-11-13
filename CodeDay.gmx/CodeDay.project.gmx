@@ -6,11 +6,30 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_letter</sprite>
-    <sprite>sprites\spr_button_placeholderXXX</sprite>
-    <sprite>sprites\sprite0</sprite>
+    <sprites name="Menu">
+      <sprites name="Buttons">
+        <sprite>sprites\spr_volumeslider_btn</sprite>
+        <sprite>sprites\spr_volumebar_btn</sprite>
+        <sprite>sprites\spr_volume_btn</sprite>
+        <sprite>sprites\spr_fullscreen_btn</sprite>
+        <sprite>sprites\spr_back_btn</sprite>
+        <sprite>sprites\spr_credits_btn</sprite>
+        <sprite>sprites\spr_settings_btn</sprite>
+        <sprite>sprites\spr_exit_btn</sprite>
+        <sprite>sprites\spr_play_btn</sprite>
+        <sprite>sprites\spr_button_placeholder</sprite>
+        <sprite>sprites\spr_check</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="Main">
+      <sprite>sprites\spr_letter</sprite>
+    </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_menu</background>
+    <background>background\bg_credits</background>
+    <background>background\bg_settings</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_sendLetter.gml</script>
@@ -18,24 +37,35 @@
     <script>scripts\scr_getNumLetters.gml</script>
     <script>scripts\scr_startDay.gml</script>
     <script>scripts\scr_endDay.gml</script>
+    <script>scripts\scr_writeLetter.gml</script>
   </scripts>
   <objects name="objects">
+    <objects name="GUI">
+      <objects name="Menu">
+        <objects name="Buttons">
+          <object>objects\obj_play</object>
+          <object>objects\obj_settings</object>
+          <object>objects\obj_credits</object>
+          <object>objects\obj_back</object>
+          <object>objects\obj_fullscreen</object>
+          <object>objects\obj_exit</object>
+        </objects>
+      </objects>
+    </objects>
     <object>objects\obj_letter</object>
-    <object>objects\obj_mainmenu_gameover</object>
-  </objects>
-  <rooms name="rooms">
-    <room>rooms\rm_gameover</room>
-    <room>rooms\rm_testletter</room>
     <object>objects\obj_test</object>
     <object>objects\obj_score</object>
+    <object>objects\obj_full</object>
+    <object>objects\obj_gameOver</object>
+    <object>objects\obj_dayHandler</object>
+    <object>objects\obj_pidgeon</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_testRoom</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_main</room>
     <room>rooms\rm_options</room>
     <room>rooms\rm_credits</room>
-    <room>rooms\rm_menu</room>
+    <room>rooms\rm_gameover</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
