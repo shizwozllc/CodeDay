@@ -8,6 +8,14 @@ letterSender = "";
 letterTypes[0] = "butcher";
 letterTypes[1] = "farmer";
 letterTypes[2] = "merchant";
+letterTypes[3] = "blacksmith";
+letterTypes[4] = "soldier";
+letterTypes[5] = "bob";
+letterTypes[6] = "knight";
+letterTypes[7] = "general";
+letterTypes[8] = "prince";
+letterTypes[9] = "queen";
+letterTypes[10] = "king";
 //INSERT MORE LETTER TYPES HERE
 
 //INSERT AS MANY DIFFICULTY VALUES AS NEEDED

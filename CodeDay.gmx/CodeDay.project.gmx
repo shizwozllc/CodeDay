@@ -36,12 +36,13 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_sendLetter.gml</script>
-    <script>scripts\scr_getLetter.gml</script>
+    <script>scripts\scr_getLetterAuthor.gml</script>
     <script>scripts\scr_startDay.gml</script>
     <script>scripts\scr_endDay.gml</script>
     <script>scripts\scr_writeLetter.gml</script>
     <script>scripts\scr_adjustWarScore.gml</script>
     <script>scripts\scr_drawWarScoreBar.gml</script>
+    <script>scripts\scr_getNumLetters.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="GUI">
