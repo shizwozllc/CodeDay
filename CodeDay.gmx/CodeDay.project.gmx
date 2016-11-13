@@ -11,7 +11,6 @@
         <sprite>sprites\spr_volumeslider_btn</sprite>
         <sprite>sprites\spr_volumebar_btn</sprite>
         <sprite>sprites\spr_volume_btn</sprite>
-        <sprite>sprites\spr_fullscreen_btn</sprite>
         <sprite>sprites\spr_back_btn</sprite>
         <sprite>sprites\spr_credits_btn</sprite>
         <sprite>sprites\spr_settings_btn</sprite>
@@ -29,6 +28,10 @@
     <background>background\bg_menu</background>
     <background>background\bg_credits</background>
     <background>background\bg_settings</background>
+    <backgrounds name="Splash">
+      <background>background\bg_gameMaker</background>
+      <background>background\bg_codeDay</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -47,25 +50,34 @@
           <object>objects\obj_settings</object>
           <object>objects\obj_credits</object>
           <object>objects\obj_back</object>
-          <object>objects\obj_fullscreen</object>
           <object>objects\obj_exit</object>
+          <object>objects\obj_full</object>
         </objects>
+        <object>objects\obj_preSplash</object>
+        <object>objects\obj_fade</object>
       </objects>
     </objects>
     <object>objects\obj_letter</object>
     <object>objects\obj_test</object>
     <object>objects\obj_score</object>
-    <object>objects\obj_full</object>
     <object>objects\obj_gameOver</object>
     <object>objects\obj_dayHandler</object>
     <object>objects\obj_pidgeon</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\tl_preSplash</timeline>
+  </timelines>
   <rooms name="rooms">
+    <room>rooms\rm_preSplash</room>
+    <room>rooms\rm_splashOne</room>
+    <room>rooms\rm_splashTwo</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_test</room>
     <room>rooms\rm_main</room>
     <room>rooms\rm_options</room>
     <room>rooms\rm_credits</room>
     <room>rooms\rm_gameover</room>
+    <room>rooms\rm_intro</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
