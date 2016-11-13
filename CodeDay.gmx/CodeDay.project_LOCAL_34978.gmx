@@ -11,7 +11,6 @@
         <sprite>sprites\spr_volumeslider_btn</sprite>
         <sprite>sprites\spr_volumebar_btn</sprite>
         <sprite>sprites\spr_volume_btn</sprite>
-        <sprite>sprites\spr_fullscreen_btn</sprite>
         <sprite>sprites\spr_back_btn</sprite>
         <sprite>sprites\spr_credits_btn</sprite>
         <sprite>sprites\spr_settings_btn</sprite>
@@ -19,8 +18,6 @@
         <sprite>sprites\spr_play_btn</sprite>
         <sprite>sprites\spr_button_placeholder</sprite>
         <sprite>sprites\spr_check</sprite>
-        <sprite>sprites\spr_win</sprite>
-        <sprite>sprites\spr_lose</sprite>
       </sprites>
     </sprites>
     <sprites name="Main">
@@ -31,7 +28,6 @@
     <background>background\bg_menu</background>
     <background>background\bg_credits</background>
     <background>background\bg_settings</background>
-    <background>background\bg_win_lose</background>
     <backgrounds name="Splash">
       <background>background\bg_gameMaker</background>
       <background>background\bg_codeDay</background>
@@ -41,7 +37,6 @@
   <scripts name="scripts">
     <script>scripts\scr_sendLetter.gml</script>
     <script>scripts\scr_getLetter.gml</script>
-    <script>scripts\scr_getNumLetters.gml</script>
     <script>scripts\scr_startDay.gml</script>
     <script>scripts\scr_endDay.gml</script>
     <script>scripts\scr_writeLetter.gml</script>
@@ -83,7 +78,7 @@
     <room>rooms\rm_options</room>
     <room>rooms\rm_credits</room>
     <room>rooms\rm_gameover</room>
-    <room>rooms\rm_win_lose</room>
+    <room>rooms\rm_intro</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
