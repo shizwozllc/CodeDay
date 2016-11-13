@@ -32,10 +32,6 @@
     <background>background\bg_credits</background>
     <background>background\bg_settings</background>
     <background>background\bg_win_lose</background>
-    <backgrounds name="Splash">
-      <background>background\bg_gameMaker</background>
-      <background>background\bg_codeDay</background>
-    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -45,8 +41,6 @@
     <script>scripts\scr_startDay.gml</script>
     <script>scripts\scr_endDay.gml</script>
     <script>scripts\scr_writeLetter.gml</script>
-    <script>scripts\scr_adjustWarScore.gml</script>
-    <script>scripts\scr_drawWarScoreBar.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="GUI">
@@ -56,29 +50,21 @@
           <object>objects\obj_settings</object>
           <object>objects\obj_credits</object>
           <object>objects\obj_back</object>
+          <object>objects\obj_fullscreen</object>
           <object>objects\obj_exit</object>
-          <object>objects\obj_full</object>
         </objects>
-        <object>objects\obj_preSplash</object>
-        <object>objects\obj_fade</object>
       </objects>
     </objects>
     <object>objects\obj_letter</object>
     <object>objects\obj_test</object>
     <object>objects\obj_score</object>
+    <object>objects\obj_full</object>
     <object>objects\obj_gameOver</object>
     <object>objects\obj_dayHandler</object>
     <object>objects\obj_pidgeon</object>
   </objects>
-  <timelines name="timelines">
-    <timeline>timelines\tl_preSplash</timeline>
-  </timelines>
   <rooms name="rooms">
-    <room>rooms\rm_preSplash</room>
-    <room>rooms\rm_splashOne</room>
-    <room>rooms\rm_splashTwo</room>
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_test</room>
     <room>rooms\rm_main</room>
     <room>rooms\rm_options</room>
     <room>rooms\rm_credits</room>
